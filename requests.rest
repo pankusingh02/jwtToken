@@ -1,0 +1,9 @@
+GET http://localhost:7000/posts 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGFua2FqIiwiaWF0IjoxNjA3NDE4NTQ5fQ.KSk3QxTSXZFUl19NU5nQvBpAK9C0sUJg6ilTmyhq9hw
+###
+POST http://localhost:7000/login 
+Content-Type: application/json
+
+{
+"username": "Pankaj"
+}
